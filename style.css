@@ -1,5 +1,23 @@
 body {
+    margin: 0px;
+}
+main {
+    font-size: larger;
+    font-family: 'Courier New', Courier, monospace;
     display: flex;
     flex-direction: column;
     background-color: antiquewhite;
+    align-items: center;
+    gap: 16px;
+    justify-content: center;
+}
+
+#image {
+    width: 100%;
+}
+section {
+    padding: 16px 128px;
+}
+li {
+    width: fit-content;
 }
